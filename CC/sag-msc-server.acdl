@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="sag-msc-server" displayName="sag-msc-server" runtimeVersion="10.3" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <buildInfo name="BuildVersion" value="10.3"/>
+    <buildInfo name="build.timestamp" value="2019-08-16T07:35:12"/>
+    <buildInfo name="productId" value="MSC"/>
+    <property name="is.instance.name" many="false" isSecure="false" displayName="is.instance.name">
+        <value>default</value>
+    </property>
+    <property name="is.jmx.port" many="false" isSecure="false" displayName="is.jmx.port">
+        <value>8094</value>
+    </property>
+    <property name="is.msc.license.key" many="false" isSecure="false" displayName="is.msc.license.key">
+        <value>'*_MSC_10.*_*_*'</value>
+    </property>
+    <property name="is.diagnostic.port" many="false" isSecure="false" displayName="is.diagnostic.port">
+        <value>9999</value>
+    </property>
+    <property name="is.memory.max" many="false" isSecure="false" displayName="is.memory.max">
+        <value>256</value>
+    </property>
+    <property name="is.memory.init" many="false" isSecure="false" displayName="is.memory.init">
+        <value>64</value>
+    </property>
+    <property name="is.fixes" many="false" isSecure="false" displayName="is.fixes">
+        <value>[wMFix.integrationServer.Core]</value>
+    </property>
+    <property name="is.install.service" many="false" isSecure="false" displayName="is.install.service">
+        <value>false</value>
+    </property>
+    <property name="is.primary.port" many="false" isSecure="false" displayName="is.primary.port">
+        <value>5555</value>
+    </property>
+</asset_composite>
