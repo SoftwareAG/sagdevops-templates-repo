@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="sag-apama-correlator" displayName="sag-apama-correlator" runtimeVersion="10.3" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <buildInfo name="BuildVersion" value="10.3"/>
+    <buildInfo name="build.timestamp" value="2019-08-16T07:55:08"/>
+    <buildInfo name="productId" value="PAMspm,PAMServer"/>
+    <property name="apama.fixes" many="false" isSecure="false" displayName="apama.fixes">
+        <value>ALL</value>
+    </property>
+    <property name="apama.instance.name" many="false" isSecure="false" displayName="apama.instance.name">
+        <value>default</value>
+    </property>
+    <property name="release.major" many="false" isSecure="false" displayName="release.major">
+        <value>10</value>
+    </property>
+    <property name="apama.port" many="false" isSecure="false" displayName="apama.port">
+        <value>15904</value>
+    </property>
+    <property name="apama.pamserver.license.key" many="false" isSecure="false" displayName="apama.pamserver.license.key">
+        <value>'*_PAM*_10.*_*_${os.platform}'</value>
+    </property>
+</asset_composite>
