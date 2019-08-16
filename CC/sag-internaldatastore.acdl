@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="sag-internaldatastore" displayName="sag-internaldatastore" runtimeVersion="10.3" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <buildInfo name="BuildVersion" value="10.3"/>
+    <buildInfo name="build.timestamp" value="2019-08-16T07:54:12"/>
+    <buildInfo name="productId" value="CEL"/>
+    <property name="release.major" many="false" isSecure="false" displayName="release.major">
+        <value>10</value>
+    </property>
+    <property name="ids.fixes" many="false" isSecure="false" displayName="ids.fixes">
+        <value>ALL</value>
+    </property>
+    <property name="ids.repo.shared.path" many="false" isSecure="false" displayName="ids.repo.shared.path">
+        <value>/opt/softwareag/InternalDataStore/archives</value>
+    </property>
+    <property name="os.platform" many="false" isSecure="false" displayName="os.platform">
+        <value>lnxamd64</value>
+    </property>
+    <property name="ids.port" many="false" isSecure="false" displayName="ids.port">
+        <value>9340</value>
+    </property>
+    <property name="nodes" many="false" isSecure="false" displayName="nodes">
+        <value>[dev1, dev2]</value>
+    </property>
+</asset_composite>
