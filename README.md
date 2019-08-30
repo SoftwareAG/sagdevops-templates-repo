@@ -1,7 +1,5 @@
 # Software AG Command Central Default Assets Library
 
-This GitHub project hosts assets, which could be imported as layer definitions in command central. These assets are automatically generated and uploaded here, once a pull request is being opened to
-https://github.com/SoftwareAG/sagdevops-templates/wiki/Generating-Assets-from-composite-templates
-master branch.
+This project hosts the Command Central default templates assets repository. The assets in this project are generated from a subset of the templates in the [sagdevops-templates](https://github.com/SoftwareAG/sagdevops-templates) project. You can import this asset repository directly in your Command Central installation by using the Command Central web user interface. If the machine where your Command Central is installed is not connected to the internet, download this project as a ZIP file by clicking **Clone or download** > **Download ZIP** and import it as a local templates ZIP file in Command Central. For information about importing this repository in Command Central, see the "Connecting to the Default Templates Repository" section in the Command Central help.
 
-No manual contribution in this project is expected.
+The assets in this project are generated using a Travis CI job (.travis.yml). The Travis CI job is triggered when a pull request is opened against the master branch of the [sagdevops-templates](https://github.com/SoftwareAG/sagdevops-templates) project. Assets are added or updated in this project after the pull request is merged in the sagdevops-templates master branch. No manual contribution is expected in this project. For more information about the assets, see [Generating Assets from Templates](https://github.com/SoftwareAG/sagdevops-templates/wiki/Generating-Assets-from-composite-templates).
