@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="sag-apigateway-server" displayName="sag-apigateway-server" runtimeVersion="10.3" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <buildInfo name="BuildVersion" value="10.3"/>
+    <buildInfo name="build.timestamp" value="2019-09-26T08:04:14"/>
+    <buildInfo name="productId" value="YAI,integrationServer"/>
+    <property name="agw.primary.port" many="false" isSecure="false" displayName="agw.primary.port">
+        <value>5555</value>
+    </property>
+    <property name="agw.instance.name" many="false" isSecure="false" displayName="agw.instance.name">
+        <value>apigateway</value>
+    </property>
+    <property name="agw.jmx.port" many="false" isSecure="false" displayName="agw.jmx.port">
+        <value>5559</value>
+    </property>
+    <property name="agw.install.service" many="false" isSecure="false" displayName="agw.install.service">
+        <value>false</value>
+    </property>
+    <property name="agw.fixes" many="false" isSecure="false" displayName="agw.fixes">
+        <value>ALL</value>
+    </property>
+    <property name="is.instance.type" many="false" isSecure="false" displayName="is.instance.type">
+        <value>integrationServer</value>
+    </property>
+    <property name="agw.YAI.license.key" many="false" isSecure="false" displayName="agw.YAI.license.key">
+        <value>'*_YAIAA_10.*_*_*'</value>
+    </property>
+    <property name="agw.memory.init" many="false" isSecure="false" displayName="agw.memory.init">
+        <value>128</value>
+    </property>
+    <property name="agw.memory.max" many="false" isSecure="false" displayName="agw.memory.max">
+        <value>256</value>
+    </property>
+    <property name="agw.diagnostic.port" many="false" isSecure="false" displayName="agw.diagnostic.port">
+        <value>9999</value>
+    </property>
+</asset_composite>
