@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="sag-um-server" displayName="sag-um-server" runtimeVersion="10.3" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <buildInfo name="BuildVersion" value="10.3"/>
+    <buildInfo name="build.timestamp" value="2019-10-11T12:44:00"/>
+    <buildInfo name="productId" value="NUMRealmServer"/>
+    <property name="um.fixes" many="false" isSecure="false" displayName="um.fixes">
+        <value>ALL</value>
+    </property>
+    <property name="um.memory.direct" many="false" isSecure="false" displayName="um.memory.direct">
+        <value>1G</value>
+    </property>
+    <property name="um.instance.port" many="false" isSecure="false" displayName="um.instance.port">
+        <value>9000</value>
+    </property>
+    <property name="um.realm" many="false" isSecure="false" displayName="um.realm">
+        <value>default</value>
+    </property>
+    <property name="um.numrealmserver.license.key" many="false" isSecure="false" displayName="um.numrealmserver.license.key">
+        <value>'*_NUMWF_10.*_*_*'</value>
+    </property>
+    <property name="um.instance.name" many="false" isSecure="false" displayName="um.instance.name">
+        <value>default</value>
+    </property>
+    <property name="um.memory.max" many="false" isSecure="false" displayName="um.memory.max">
+        <value>128</value>
+    </property>
+    <property name="um.memory.init" many="false" isSecure="false" displayName="um.memory.init">
+        <value>64</value>
+    </property>
+    <property name="um.jmx.port" many="false" isSecure="false" displayName="um.jmx.port">
+        <value>9988</value>
+    </property>
+</asset_composite>
