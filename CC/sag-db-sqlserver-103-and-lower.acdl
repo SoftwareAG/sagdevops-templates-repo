@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="sag-db-sqlserver-103-and-lower" displayName="sag-db-sqlserver-103-and-lower" runtimeVersion="10.3" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <buildInfo name="BuildVersion" value="10.3"/>
+    <buildInfo name="build.timestamp" value="2019-10-11T13:04:42"/>
+    <buildInfo name="productId" value="DatabaseComponentConfigurator"/>
+    <property name="db.fixes" many="false" isSecure="false" displayName="db.fixes">
+        <value>ALL</value>
+    </property>
+    <property name="db.password" many="false" isSecure="true" displayName="db.password">
+        <value>${}</value>
+    </property>
+    <property name="db.products" many="false" isSecure="false" displayName="db.products">
+        <value>[IS, BPM, MWS, OPTI]</value>
+    </property>
+    <property name="db.version" many="false" isSecure="false" displayName="db.version">
+        <value>10.3.0.0</value>
+    </property>
+    <property name="db.username" many="false" isSecure="false" displayName="db.username">
+        <value>${}</value>
+    </property>
+    <property name="db.port" many="false" isSecure="false" displayName="db.port">
+        <value>1433</value>
+    </property>
+    <property name="db.name" many="false" isSecure="false" displayName="db.name">
+        <value>webm</value>
+    </property>
+    <property name="db.admin.password" many="false" isSecure="true" displayName="db.admin.password">
+        <value>${}</value>
+    </property>
+    <property name="db.url" many="false" isSecure="false" displayName="db.url">
+        <value>jdbc:wm:sqlserver://${db.host}:1433;databaseName=webm</value>
+    </property>
+    <property name="db.host" many="false" isSecure="false" displayName="db.host">
+        <value>${}</value>
+    </property>
+    <property name="db.admin.username" many="false" isSecure="false" displayName="db.admin.username">
+        <value>${}</value>
+    </property>
+</asset_composite>
