@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="sag-db-mysql" displayName="sag-db-mysql" runtimeVersion="10.4" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <buildInfo name="BuildVersion" value="10.4"/>
+    <buildInfo name="build.timestamp" value="2019-10-11T15:43:44"/>
+    <buildInfo name="productId" value="TNScdc,DatabaseComponentConfigurator,OBEcdc,WPEcdc,WOKcdc,MWScdc,PIEcdc"/>
+    <property name="db.host" many="false" isSecure="false" displayName="db.host">
+        <value>${}</value>
+    </property>
+    <property name="db.STR.components" many="false" isSecure="false" displayName="db.STR.components">
+        <value>[]</value>
+    </property>
+    <property name="db.product.scripts" many="false" isSecure="false" displayName="db.product.scripts">
+        <value>[DatabaseComponentConfigurator, OBEcdc, WOKcdc, TNScdc, MWScdc, PIEcdc, WPEcdc]</value>
+    </property>
+    <property name="db.port" many="false" isSecure="false" displayName="db.port">
+        <value>3306</value>
+    </property>
+    <property name="db.PIE.components" many="false" isSecure="false" displayName="db.PIE.components">
+        <value>[ISInternal, ISCoreAudit, CrossReference, DocumentHistory, DistributedLocking]</value>
+    </property>
+    <property name="db.version" many="false" isSecure="false" displayName="db.version">
+        <value>latest</value>
+    </property>
+    <property name="db.admin.password" many="false" isSecure="true" displayName="db.admin.password">
+        <value>${}</value>
+    </property>
+    <property name="db.url" many="false" isSecure="false" displayName="db.url">
+        <value>jdbc:mysql://${db.host}:3306/webm</value>
+    </property>
+    <property name="db.OBE.components" many="false" isSecure="false" displayName="db.OBE.components">
+        <value>[Analysis, ProcessTracker, DataPurge, DatabaseManagement, OperationManagement, ProcessAudit]</value>
+    </property>
+    <property name="db.TNS.components" many="false" isSecure="false" displayName="db.TNS.components">
+        <value>[TradingNetworks, TradingNetworksArchive]</value>
+    </property>
+    <property name="db.WPE.components" many="false" isSecure="false" displayName="db.WPE.components">
+        <value>[ProcessEngine, ProcessAudit]</value>
+    </property>
+    <property name="db.name" many="false" isSecure="false" displayName="db.name">
+        <value>webm</value>
+    </property>
+    <property name="db.fixes" many="false" isSecure="false" displayName="db.fixes">
+        <value>ALL</value>
+    </property>
+    <property name="db.WOK.components" many="false" isSecure="false" displayName="db.WOK.components">
+        <value>[BusinessRules]</value>
+    </property>
+    <property name="db.admin.username" many="false" isSecure="false" displayName="db.admin.username">
+        <value>${}</value>
+    </property>
+    <property name="db.admin.url" many="false" isSecure="false" displayName="db.admin.url">
+        <value>jdbc:mysql://${db.host}:3306</value>
+    </property>
+    <property name="db.username" many="false" isSecure="false" displayName="db.username">
+        <value>${}</value>
+    </property>
+    <property name="db.MWS.components" many="false" isSecure="false" displayName="db.MWS.components">
+        <value>[MywebMethodsServer]</value>
+    </property>
+    <property name="db.password" many="false" isSecure="true" displayName="db.password">
+        <value>${}</value>
+    </property>
+</asset_composite>
