@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="sag-spm-boot-local" displayName="sag-spm-boot-local" runtimeVersion="10.3" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <buildInfo name="BuildVersion" value="10.3"/>
+    <buildInfo name="build.timestamp" value="2019-10-11T12:39:42"/>
+    <buildInfo name="productId" value="SPM"/>
+    <property name="install.dir" many="false" isSecure="false" displayName="install.dir">
+        <value>${}</value>
+    </property>
+    <property name="node" many="false" isSecure="false" displayName="node">
+        <value>dev8192</value>
+    </property>
+    <property name="spm.port" many="false" isSecure="false" displayName="spm.port">
+        <value>8192</value>
+    </property>
+    <property name="cc.installer" many="false" isSecure="false" displayName="cc.installer">
+        <value>${}</value>
+    </property>
+</asset_composite>
