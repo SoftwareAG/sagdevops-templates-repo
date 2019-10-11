@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="sag-mws-server" displayName="sag-mws-server" runtimeVersion="10.3" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <buildInfo name="BuildVersion" value="10.3"/>
+    <buildInfo name="build.timestamp" value="2019-10-11T12:55:15"/>
+    <buildInfo name="productId" value="MwsProgramFiles"/>
+    <property name="db.type" many="false" isSecure="false" displayName="db.type">
+        <value>${}</value>
+    </property>
+    <property name="db.password" many="false" isSecure="true" displayName="db.password">
+        <value>${}</value>
+    </property>
+    <property name="mws.http.port" many="false" isSecure="false" displayName="mws.http.port">
+        <value>8585</value>
+    </property>
+    <property name="mws.instance.name" many="false" isSecure="false" displayName="mws.instance.name">
+        <value>default</value>
+    </property>
+    <property name="mws.lb.http.port" many="false" isSecure="false" displayName="mws.lb.http.port">
+        <value>8585</value>
+    </property>
+    <property name="mws.jmx.port" many="false" isSecure="false" displayName="mws.jmx.port">
+        <value>8587</value>
+    </property>
+    <property name="mws.memory.init" many="false" isSecure="false" displayName="mws.memory.init">
+        <value>256</value>
+    </property>
+    <property name="db.username" many="false" isSecure="false" displayName="db.username">
+        <value>${}</value>
+    </property>
+    <property name="mws.lb.host" many="false" isSecure="false" displayName="mws.lb.host">
+        <value>localhost</value>
+    </property>
+    <property name="mws.https.port" many="false" isSecure="false" displayName="mws.https.port">
+        <value>8586</value>
+    </property>
+    <property name="mws.memory.max" many="false" isSecure="false" displayName="mws.memory.max">
+        <value>512</value>
+    </property>
+    <property name="mws.lb.https.port" many="false" isSecure="false" displayName="mws.lb.https.port">
+        <value>8586</value>
+    </property>
+    <property name="mws.lb.protocol" many="false" isSecure="false" displayName="mws.lb.protocol">
+        <value>http</value>
+    </property>
+    <property name="db.url" many="false" isSecure="false" displayName="db.url">
+        <value>${}</value>
+    </property>
+    <property name="mws.fixes" many="false" isSecure="false" displayName="mws.fixes">
+        <value>ALL</value>
+    </property>
+</asset_composite>
