@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="sag-tc-server" displayName="sag-tc-server" runtimeVersion="10.3" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <buildInfo name="BuildVersion" value="10.3"/>
+    <buildInfo name="build.timestamp" value="2019-10-11T15:39:56"/>
+    <buildInfo name="productId" value="TES"/>
+    <property name="tc.logs.dir" many="false" isSecure="false" displayName="tc.logs.dir">
+        <value>../logs</value>
+    </property>
+    <property name="tc.backup.dir" many="false" isSecure="false" displayName="tc.backup.dir">
+        <value>../backup</value>
+    </property>
+    <property name="tc.tsa.port" many="false" isSecure="false" displayName="tc.tsa.port">
+        <value>9010</value>
+    </property>
+    <property name="tc.fixes" many="false" isSecure="false" displayName="tc.fixes">
+        <value>ALL</value>
+    </property>
+    <property name="tc.tes.license.key" many="false" isSecure="false" displayName="tc.tes.license.key">
+        <value>Terracotta.key</value>
+    </property>
+    <property name="tc.offheap.enabled" many="false" isSecure="false" displayName="tc.offheap.enabled">
+        <value>true</value>
+    </property>
+    <property name="tc.index.dir" many="false" isSecure="false" displayName="tc.index.dir">
+        <value>../index</value>
+    </property>
+    <property name="tc.offheap.size" many="false" isSecure="false" displayName="tc.offheap.size">
+        <value>1g</value>
+    </property>
+    <property name="tc.memory.init" many="false" isSecure="false" displayName="tc.memory.init">
+        <value>128</value>
+    </property>
+    <property name="tc.memory.max" many="false" isSecure="false" displayName="tc.memory.max">
+        <value>512</value>
+    </property>
+    <property name="tc.jmx.port" many="false" isSecure="false" displayName="tc.jmx.port">
+        <value>9020</value>
+    </property>
+    <property name="tc.mgt.port" many="false" isSecure="false" displayName="tc.mgt.port">
+        <value>9040</value>
+    </property>
+    <property name="tc.data.dir" many="false" isSecure="false" displayName="tc.data.dir">
+        <value>../data</value>
+    </property>
+    <property name="tc.grp.port" many="false" isSecure="false" displayName="tc.grp.port">
+        <value>9030</value>
+    </property>
+    <property name="tc.storage.size" many="false" isSecure="false" displayName="tc.storage.size">
+        <value>50g</value>
+    </property>
+</asset_composite>
