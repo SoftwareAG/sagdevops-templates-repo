@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <asset_composite name="sag-db-db2" displayName="sag-db-db2" runtimeVersion="10.5" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
     <buildInfo name="BuildVersion" value="10.5"/>
-    <buildInfo name="build.timestamp" value="2020-01-10T07:50:00"/>
+    <buildInfo name="build.timestamp" value="2020-01-15T13:26:03"/>
     <buildInfo name="productId" value="TNScdc,DatabaseComponentConfigurator,OBEcdc,WSTcdc,YAIcdc,PIEMobileCdc,WPEcdc,WOKcdc,PIEEmbeddedCdc,WMNcdc,MWScdc,PIEcdc"/>
     <property name="rollbackConfigurations" many="false" isSecure="false" displayName="rollbackConfigurations">
         <value>FALSE</value>
